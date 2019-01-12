@@ -1,7 +1,0 @@
-int isPalin(int n)
-{
-    int k;
-    for(k=0;n;n/=10) 
-        k=k*10+n%10;
-    return k==n;
-}
